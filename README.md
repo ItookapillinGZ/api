@@ -46,3 +46,5 @@ Environment: Dotenv, Python-standard CLI tools
 循环迭代：在沙盒中执行测试，通过错误日志触发 Self-Healing 逻辑。
 
 交付报告：完成联调后，提交格式化的 Markdown 文档并清理沙盒。
+
+conference : https://github.com/shareAI-lab/learn-claude-code
