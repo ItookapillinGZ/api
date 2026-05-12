@@ -1,4 +1,5 @@
 Self-Operating Integrator | 基于隔离沙盒的自主式 API 集成 Agent
+
 针对 AI Agent 在本地多任务并行开发时易引发的“依赖冲突、环境污染、异构系统崩溃”等痛点，本项目实现了一套具备物理隔离、数据强校验与环境自愈能力的自主式 API 集成智能体框架。
 
 Agent 能够根据用户的非结构化自然语言指令，在隔离的沙盒中独立完成“依赖盘点 -> 契约建模 -> 代码编写 -> 异常捕获 -> 环境自愈 -> 联调交付”的全生命周期闭环。
@@ -45,6 +46,3 @@ Environment: Dotenv, Python-standard CLI tools
 循环迭代：在沙盒中执行测试，通过错误日志触发 Self-Healing 逻辑。
 
 交付报告：完成联调后，提交格式化的 Markdown 文档并清理沙盒。
-
-Author: 黄家乐 (中山大学数学学院)
-Project Status: 核心框架已完成，支持多源 API 自主集成。
